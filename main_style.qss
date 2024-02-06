@@ -1,3 +1,6 @@
+/* [Main] Default Dark Theme Stylesheet */
+
+/* Global styling */
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -9,7 +12,7 @@ QWidget {
     color: #CCCCCC;
 }
 
-/* Styling for QLineEdit*/
+/* Styling for QLineEdit */
 QLineEdit {
     border: 0px;
     padding: 3px 0px 0px 5px;
@@ -26,7 +29,7 @@ QPushButton {
     font-size: 16px;
     font-weight: 500;
     color: black;
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #a67dff, stop:1 #ffdfc2)
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #a67dff, stop:1 #ffdfc2)
 }
 
 /* Hover effect for QPushButton */
@@ -35,7 +38,7 @@ QPushButton:hover {
 }
 
 
-/* Specific Styling*/
+/* Specific styling */
 #mainContainer {
     margin: 0px;
     background-color: #2b2d31;
@@ -84,7 +87,7 @@ QPushButton:hover {
 }
 
 #iconBtn:hover {
-    background-color: #40444b;;
+    background-color: #40444b;
 }
 
 #iconTextBtn {
@@ -104,4 +107,3 @@ QPushButton:hover {
     border-radius: 7px;
     background-color: #191919;
 }
-
