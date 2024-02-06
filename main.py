@@ -18,7 +18,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtGui import QIcon, QFont, QFontDatabase
 from PyQt5.QtCore import Qt, QUrl, QSize, QPoint
-from auth_latest import LoginWindow
+from auth import LoginWindow
 from config import webpageURL
 
 

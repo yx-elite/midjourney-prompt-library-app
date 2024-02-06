@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtGui import QIcon, QFont, QFontDatabase
 from PyQt5.QtCore import QUrl, QSize, QPoint
-from auth_latest import LoginWindow
+from archive.auth_v1_0 import LoginWindow
 
 class MainWindow(QMainWindow):
     def __init__(self):

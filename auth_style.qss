@@ -1,13 +1,23 @@
+/* [Auth] Default Dark Theme Stylesheet */
+
+/* Global styling */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Set background color for the QDialog (main window) */
 QDialog {
     background-color: #2b2d31;
 }
 
+/* Styling for QLabel (text labels) */
 QLabel {
     margin-top: 20px;
     color: #ecf0f1;
     font-size: 16px;
 }
 
+/* Styling for QLineEdit (text input fields) */
 QLineEdit {
     padding: 9px 10px 6px 10px;
     border: none;
@@ -17,6 +27,7 @@ QLineEdit {
     color: white;
 }
 
+/* Styling for QPushButton (buttons) */
 QPushButton {
     padding: 9px 50px 6px;
     border: 0px;
@@ -27,28 +38,34 @@ QPushButton {
     background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #a67dff, stop:1 #ffdfc2);
 }
 
+/* Hover effect for QPushButton */
 QPushButton:hover {
     background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #c6adff, stop:1 #fce5d0);
 }
 
+/* Styling for cover image QLabel */
 #coverImage {
     margin-top: 0px;
 }
 
+/* Styling for authentication container QFrame */
 #authContainer {
     background-color: transparent;
 }
 
+/* Styling for the title label */
 #titleLabel {
     font-size: 30px;
     font-weight: 600;
 }
 
+/* Styling for hide/show password button */
 #hideShowBtn {
     padding: 7px;
     background-color: transparent;
 }
 
+/* Styling for password input frame */
 #passwordInput {
     margin-bottom: 0px;
     padding: 0px 10px 0px 0px;
@@ -56,17 +73,20 @@ QPushButton:hover {
     background-color: #40444b;
 }
 
+/* Styling for error message label */
 #errorMessage {
     margin-top: 10px;
     font-size: 14px;
     color: red;
 }
 
+/* Styling for remember me checkbox */
 #checkBox {
     font-size: 14px;
     color: white;
 }
 
+/* Styling for forgot password button */
 #forgotPassword {
     padding: 0px;
     font-size: 14px;
@@ -75,11 +95,13 @@ QPushButton:hover {
     background-color: transparent;
 }
 
+/* Styling for close button */
 #closeButton {
     padding: 7px;
     background-color: transparent;
 }
 
+/* Hover effect for close button */
 #closeButton:hover {
     background-color: #40444b;
 }
