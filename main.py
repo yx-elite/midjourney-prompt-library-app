@@ -46,7 +46,6 @@ class MainWindow(QMainWindow):
 
         self.setWindowIcon(QIcon(resource_path('img\\app-icon.png')))
         self.setWindowTitle('Elite Creations Studio - MidJourney Prompt Library')
-        self.set
         self.loadCustomFont()
         
         # Main widget and layout
