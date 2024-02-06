@@ -24,7 +24,7 @@ def applyExternalStylesheet(self):
 
 3. run command
 
-pyinstaller --onefile main_latest.py --noconsole --icon midjourney.png --add-data "auth_style.qss;." --add-data "main_style.qss;." --add-data "img/*.png;img/"
+pyinstaller --onefile main.py --noconsole --icon midjourney.png --add-data "auth_style.qss;." --add-data "main_style.qss;." --add-data "img/*.png;img/"
 
 
 4. import to Inno for packaging using Setup Wizard
