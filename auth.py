@@ -126,7 +126,7 @@ class LoginWindow(QDialog):
 
     def loadCustomFont(self):
         # Load custom font for the application
-        font_dir = "font/"
+        font_dir = "font\\"
         font_files = [
             "Poppins-Regular.ttf",
             "Poppins-Bold.ttf",
@@ -135,7 +135,7 @@ class LoginWindow(QDialog):
 
         for font_file in font_files:
             font_path = font_dir + font_file
-            QFontDatabase.addApplicationFont(font_path)
+            QFontDatabase.addApplicationFont(resource_path(font_path))
 
         app_font = QFont("Poppins", 9)
         QApplication.setFont(app_font)
@@ -230,7 +230,7 @@ class LoginWindow(QDialog):
 
     def load_saved_credentials(self):
         # Load saved credentials if "Remember Me" is checked
-        settings = QSettings('YourCompany', 'YourApp')
+        settings = QSettings('Elite Creations', 'MJ Prompt Library')
         remember_me = settings.value('RememberMe', type=bool)
 
         if remember_me:
@@ -255,12 +255,12 @@ class LoginWindow(QDialog):
             print('Authentication successful')
 
             if self.remember_checkbox.isChecked():
-                settings = QSettings('YourCompany', 'YourApp')
+                settings = QSettings('Elite Creations', 'MJ Prompt Library')
                 settings.setValue('RememberMe', True)
                 settings.setValue('Email', email)
                 settings.setValue('Password', password)
             else:
-                settings = QSettings('YourCompany', 'YourApp')
+                settings = QSettings('Elite Creations', 'MJ Prompt Library')
                 settings.setValue('RememberMe', False)
                 settings.remove('Email')
                 settings.remove('Password')
@@ -275,7 +275,7 @@ class LoginWindow(QDialog):
             self.email_input.setStyleSheet("")
             self.error_label.setText("Incorrect email or password. Please try again.")
             
-            settings = QSettings('YourCompany', 'YourApp')
+            settings = QSettings('Elite Creations', 'MJ Prompt Library')
             settings.setValue('RememberMe', False)
             settings.remove('Email')
             settings.remove('Password')

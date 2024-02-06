@@ -24,7 +24,7 @@ def applyExternalStylesheet(self):
 
 3. run command
 
-pyinstaller --onefile main.py --noconsole --icon app-icon.png --add-data "auth_style.qss;." --add-data "main_style.qss;." --add-data "img/*.png;img/" --add-data "font/*.ttf;font/"
+pyinstaller --onefile main.py --noconsole --icon app-icon.ico --add-data "auth_style.qss;." --add-data "main_style.qss;." --add-data "img/*.png;img/" --add-data "font/*.ttf;font/"
 
 
 

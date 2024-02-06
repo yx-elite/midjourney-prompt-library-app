@@ -1,0 +1,29 @@
+**MidJourney Prompt Library**
+
+**Open Source License Agreement and Digital Art Policy**
+
+Thank you for choosing "MidJourney Prompt Library" developed by Elite Creations. Before installing this application, please review the following license agreement and digital art policy.
+
+**Open Source License Agreement Text:**
+
+Copyright (c) 2024 Elite Creations
+
+This application, "MidJourney Prompt Library," is licensed under the terms of the GNU General Public License version 3.0.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+**Digital Art Policy:**
+
+"MidJourney Prompt Library" provides access to a curated collection of AI-generated digital artworks for your enjoyment and inspiration. Please note the following policies regarding the use of digital art within the application:
+
+1. **Artwork Ownership:** The digital artworks provided within "MidJourney Prompt Library" are the intellectual property of Elite Creations. Users do not have the right to claim ownership of, sell, or distribute the artworks as their own.
+
+2. **Artwork Usage:** Users are permitted to view and interact with the digital artworks within the application for personal use and inspiration. However, downloading, copying, or redistributing the artworks outside of the application is strictly prohibited.
+
+3. **Artwork Generation:** Users are encouraged to utilize the provided prompts to generate their own unique digital artworks within the application. These generated artworks are considered derivative works and may be used and shared by the user in accordance with the terms of the GNU GPL v3 license.
+
+By installing "MidJourney Prompt Library," you agree to abide by the terms of the GNU GPL v3 license and the digital art policy outlined above.

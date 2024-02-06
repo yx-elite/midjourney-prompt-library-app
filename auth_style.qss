@@ -82,6 +82,7 @@ QPushButton:hover {
 
 /* Styling for remember me checkbox */
 #checkBox {
+    spacing: 7px;
     font-size: 14px;
     color: white;
 }

@@ -44,8 +44,9 @@ class MainWindow(QMainWindow):
     def initUI(self):
         """Initialize the user interface"""
 
-        self.setWindowIcon(QIcon(resource_path('app-icon.png')))
+        self.setWindowIcon(QIcon(resource_path('img\\app-icon.png')))
         self.setWindowTitle('Elite Creations Studio - MidJourney Prompt Library')
+        self.set
         self.loadCustomFont()
         
         # Main widget and layout
@@ -73,7 +74,7 @@ class MainWindow(QMainWindow):
     def loadCustomFont(self):
         """Load custom fonts for the application"""
 
-        font_dir = "font/"
+        font_dir = "font\\"
         font_files = [
             "Poppins-Regular.ttf",
             "Poppins-Bold.ttf",
@@ -84,7 +85,7 @@ class MainWindow(QMainWindow):
 
         for font_file in font_files:
             font_path = font_dir + font_file
-            QFontDatabase.addApplicationFont(font_path)
+            QFontDatabase.addApplicationFont(resource_path(font_path))
         
         # Set the Poppins font for the entire application
         app_font = QFont("Poppins", 9)  # You can adjust the size
@@ -132,7 +133,7 @@ class MainWindow(QMainWindow):
 
         self.search_container = QFrame()
         self.search_container.setObjectName("searchContainer")
-        self.search_container.setMinimumWidth(800)
+        self.search_container.setMinimumWidth(700)
         self.search_container.setMaximumWidth(900)
 
         self.search_layout = QHBoxLayout(self.search_container)
@@ -265,6 +266,7 @@ def main():
     """Main function to start the application"""
 
     app = QApplication(sys.argv)
+    app.setStyle("default")
     auth_page = LoginWindow()
     if auth_page.exec_() == QDialog.Accepted:
         mainWindow = MainWindow()
