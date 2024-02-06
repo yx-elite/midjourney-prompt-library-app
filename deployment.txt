@@ -27,5 +27,4 @@ def applyExternalStylesheet(self):
 pyinstaller --onefile main.py --noconsole --icon app-icon.ico --add-data "auth_style.qss;." --add-data "main_style.qss;." --add-data "img/*.png;img/" --add-data "font/*.ttf;font/"
 
 
-
 4. import to Inno for packaging using Setup Wizard
