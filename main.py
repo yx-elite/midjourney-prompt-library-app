@@ -44,6 +44,7 @@ class MainWindow(QMainWindow):
     def initUI(self):
         """Initialize the user interface"""
 
+        self.setWindowIcon(QIcon(resource_path('app-icon.png')))
         self.setWindowTitle('Elite Creations Studio - MidJourney Prompt Library')
         self.loadCustomFont()
         
