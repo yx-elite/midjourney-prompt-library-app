@@ -1,0 +1,85 @@
+QDialog {
+    background-color: #2b2d31;
+}
+
+QLabel {
+    margin-top: 20px;
+    color: #ecf0f1;
+    font-size: 16px;
+}
+
+QLineEdit {
+    padding: 9px 10px 6px 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    background-color: #40444b;
+    color: white;
+}
+
+QPushButton {
+    padding: 9px 50px 6px;
+    border: 0px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #a67dff, stop:1 #ffdfc2);
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #c6adff, stop:1 #fce5d0);
+}
+
+#coverImage {
+    margin-top: 0px;
+}
+
+#authContainer {
+    background-color: transparent;
+}
+
+#titleLabel {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#hideShowBtn {
+    padding: 7px;
+    background-color: transparent;
+}
+
+#passwordInput {
+    margin-bottom: 0px;
+    padding: 0px 10px 0px 0px;
+    border-radius: 7px;
+    background-color: #40444b;
+}
+
+#errorMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
+
+#checkBox {
+    font-size: 14px;
+    color: white;
+}
+
+#forgotPassword {
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+}
+
+#closeButton {
+    padding: 7px;
+    background-color: transparent;
+}
+
+#closeButton:hover {
+    background-color: #40444b;
+}
